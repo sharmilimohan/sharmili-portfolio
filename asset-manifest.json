@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sharmili-portfolio/static/css/main.fdf67d59.css",
+    "main.css": "/sharmili-portfolio/static/css/main.620e5d7e.css",
     "main.js": "/sharmili-portfolio/static/js/main.29bc734d.js",
     "static/js/453.a4f74c88.chunk.js": "/sharmili-portfolio/static/js/453.a4f74c88.chunk.js",
     "index.html": "/sharmili-portfolio/index.html",
-    "main.fdf67d59.css.map": "/sharmili-portfolio/static/css/main.fdf67d59.css.map",
+    "main.620e5d7e.css.map": "/sharmili-portfolio/static/css/main.620e5d7e.css.map",
     "main.29bc734d.js.map": "/sharmili-portfolio/static/js/main.29bc734d.js.map",
     "453.a4f74c88.chunk.js.map": "/sharmili-portfolio/static/js/453.a4f74c88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdf67d59.css",
+    "static/css/main.620e5d7e.css",
     "static/js/main.29bc734d.js"
   ]
 }
