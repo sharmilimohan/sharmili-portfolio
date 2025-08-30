@@ -535,3 +535,129 @@ margin-right: 550px;
 .contact-card h3{
   color: var(--main-text-color); 
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar li {
+    margin: 5px 8px;
+  }
+
+  div[class$="-container"] {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .cards, .contact-cards, .video-container {
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .card, .contact-card, .video-card {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .home-container h1 {
+    font-size: 2rem;
+  }
+
+  .home-container p {
+    font-size: 1rem;
+  }
+
+  .video-details h2 {
+    font-size: 16px;
+  }
+
+  .video-details p {
+    font-size: 13px;
+  }
+
+  .video-container h1 {
+    top: 0;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .theme-switcher {
+    top: 5px;
+    right: 5px;
+    gap: 5px;
+  }
+
+  .color-options {
+    top: 40px;
+    right: 10px;
+  }
+
+  .cards {
+    gap: 15px;
+  }
+
+  .contact-cards {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    padding: 20px 10px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card, .contact-card, .video-card {
+    width: 95%;
+  }
+
+  .navbar a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .home-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .home-container p {
+    font-size: 0.9rem;
+  }
+
+  .video-details h2 {
+    font-size: 14px;
+  }
+
+  .video-details p {
+    font-size: 12px;
+  }
+
+  .video-container {
+    gap: 10px;
+  }
+}

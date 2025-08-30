@@ -10,21 +10,21 @@ import Video from "./components/Video";
 import "./App.css";
 
 function App() {
-  const [textColor, setTextColor] = useState("#000000"); // Default for light mode
+  const [textColor, setTextColor] = useState("#000000");
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     if (darkMode) {
-      document.body.style.backgroundColor = "#21212aff"; // dark bg
+      document.body.style.backgroundColor = "#21212aff"; 
       document.documentElement.style.setProperty(
         "--main-text-color",
-        textColor || "#ffffff" // white default, but palette can override
+        textColor || "#ffffff" 
       );
     } else {
-      document.body.style.backgroundColor = "#f5f5f5"; // light bg
+      document.body.style.backgroundColor = "#f5f5f5"; 
       document.documentElement.style.setProperty(
         "--main-text-color",
-        textColor || "#000000" // palette or black
+        textColor || "#000000" 
       );
     }
   }, [darkMode, textColor]);
