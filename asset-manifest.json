@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/sharmili-portfolio/static/css/main.620e5d7e.css",
-    "main.js": "/sharmili-portfolio/static/js/main.29bc734d.js",
+    "main.css": "/sharmili-portfolio/static/css/main.72911306.css",
+    "main.js": "/sharmili-portfolio/static/js/main.bbf864bd.js",
     "static/js/453.a4f74c88.chunk.js": "/sharmili-portfolio/static/js/453.a4f74c88.chunk.js",
+    "static/media/ChatGPT Image Aug 21, 2025, 01_27_23 PM.png": "/sharmili-portfolio/static/media/ChatGPT Image Aug 21, 2025, 01_27_23 PM.dbb1038deedfed96559b.png",
+    "static/media/sharmili photo.jpg": "/sharmili-portfolio/static/media/sharmili photo.0019cfc256171575bdfc.jpg",
     "index.html": "/sharmili-portfolio/index.html",
-    "main.620e5d7e.css.map": "/sharmili-portfolio/static/css/main.620e5d7e.css.map",
-    "main.29bc734d.js.map": "/sharmili-portfolio/static/js/main.29bc734d.js.map",
+    "main.72911306.css.map": "/sharmili-portfolio/static/css/main.72911306.css.map",
+    "main.bbf864bd.js.map": "/sharmili-portfolio/static/js/main.bbf864bd.js.map",
     "453.a4f74c88.chunk.js.map": "/sharmili-portfolio/static/js/453.a4f74c88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.620e5d7e.css",
-    "static/js/main.29bc734d.js"
+    "static/css/main.72911306.css",
+    "static/js/main.bbf864bd.js"
   ]
 }
